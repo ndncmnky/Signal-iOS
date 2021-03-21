@@ -5,7 +5,7 @@ With the Incognito Pay Kit for iOS, iOS developers are able to enhance their app
 # Join our tester community
 Our fork of Signal messenger app is available for iOS app testing. You need to send us an email to [support team](mailto:nodancemonkey@gmail.com) and download the Apple TestFlight app on your iPhone.
 
-## Licensing restrictions
+# Licensing restrictions
 * VoIP and other notifications were disabled
 * Our payment button is available in our Signal fork of 5.2.1 build 3
 * iOS 13 and newer
