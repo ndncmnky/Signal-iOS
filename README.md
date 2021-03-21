@@ -9,6 +9,7 @@ Our fork of Signal messenger app is available for iOS app testing. You need to s
 * VoIP and other notifications were disabled
 * Our payment button is available in our Signal fork of 5.2.1 build 3
 * iOS 13 and newer
+* Our fork were built for UAT. Incognito testnet is connected. [You can top up your balance for free](https://docs.incognito.org/developers-guide/quickstart/faucet)
 * Signal starts unconfigured and must be configured
 * After configuration, Signal must be restarted for the Incognito Pay button to appear
 
