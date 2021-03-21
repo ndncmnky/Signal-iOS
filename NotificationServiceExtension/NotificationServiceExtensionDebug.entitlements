@@ -10,7 +10,7 @@
 	</array>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>$(AppIdentifierPrefix)org.whispersystems.signal</string>
+		<string>$(AppIdentifierPrefix)com.incognitopaykit.Signal</string>
 	</array>
 </dict>
 </plist>

@@ -1,0 +1,11 @@
+framework module IncognitoPayKit {
+  umbrella header "IncognitoPayKit.h"
+
+  export *
+  module * { export * }
+}
+
+module IncognitoPayKit.Swift {
+    header "IncognitoPayKit-Swift.h"
+    requires objc
+}
