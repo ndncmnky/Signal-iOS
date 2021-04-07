@@ -4,10 +4,16 @@
 <dict>
 	<key>BuildDetails</key>
 	<dict>
+		<key>DateTime</key>
+		<string>Wed Apr  7 00:32:10 UTC 2021</string>
 		<key>OSXVersion</key>
 		<string>11.2.3</string>
+		<key>Timestamp</key>
+		<string>1617755530</string>
 		<key>WebRTCCommit</key>
 		<string>d9faa1be9ef6996232977b0ee713efa024c0df9d Production build of v2.8.8</string>
+		<key>XCodeVersion</key>
+		<string>1200.1240</string>
 	</dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
@@ -45,7 +51,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>5.2.1.3</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LOGS_EMAIL</key>
