@@ -9,7 +9,7 @@ import IncognitoPayKit
 @objc
 class ConversationSplitViewController: UISplitViewController, ConversationSplit {
   
-    private lazy var contacts = [Contact]()
+    private lazy var contacts = [SignalAccount]()
 
     fileprivate var deviceTransferNavController: DeviceTransferNavigationController?
 
@@ -541,15 +541,15 @@ extension ConversationSplitViewController: UINavigationControllerDelegate {
 extension ConversationSplitViewController: ContactsViewHelperObserver {
     public func contactsViewHelperDidUpdateContacts() {
         let contactsManager = Environment.shared.contactsManager
-        contacts = contactsManager!.allContacts
+        contacts = contactsManager!.signalAccounts
         
         if (contacts.count > 0) {
             let contactList = contacts.map({
                 IncognitoContact(
-                    firstName: $0.firstName ?? "",
-                    lastName: $0.lastName ?? "",
+                    firstName: $0.contact?.firstName ?? "",
+                    lastName: $0.contact?.lastName ?? "",
                     image: nil,
-                    id: $0.uniqueId,
+                    id: $0.recipientUUID ?? "",
                     walletAddress: ""
                 )
             })
